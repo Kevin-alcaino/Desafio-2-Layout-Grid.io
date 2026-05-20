@@ -1,3 +1,22 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Aplicamos la fuente variable 'Cause' a todo el sitio por defecto */
+body {
+    
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+
+
 /* Layout */
 
 .grid-container{
@@ -13,7 +32,11 @@
 
 .navegador{
     grid-area: navegador;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 35px;
     border: 2px solid blue;
+    background-color: rgb(33, 143, 216);
 }
 
 .menu-lat{
@@ -22,7 +45,7 @@
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   align-items: flex-start;
+   padding: 30px 40px;
    gap: 10px;
    
 }
