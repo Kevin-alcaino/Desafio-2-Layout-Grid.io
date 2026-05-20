@@ -91,16 +91,18 @@ body {
 .tarjeta h3 {
     font-size: 1rem;
     margin-bottom: 5px;
+    font-weight: 700
 }
 
 .tarjeta p {
     font-size: 0.75rem;
     color: #666;
+    font-weight: 300;
 }
 
 .tarjeta .precio {
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 800;
     margin-top: auto; 
 }
 
