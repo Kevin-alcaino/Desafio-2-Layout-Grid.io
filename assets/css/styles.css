@@ -7,7 +7,7 @@
     "menu-lat contenido"
     "footer footer";
     min-height: 100vh;
-    grid-template-columns: 0.6fr auto;
+    grid-template-columns: 200px auto;
     grid-template-rows: 100px auto 50px;
 }
 
@@ -21,6 +21,10 @@
    border: 2px solid rgb(255, 136, 0);
    display: flex;
    flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   gap: 10px;
+   
 }
 
 .contenido{
@@ -31,7 +35,7 @@
     align-items: start;  
     gap: 20px; 
     padding: 20px; 
-    align-items: start; 
+    
 }
 
 .footer{
