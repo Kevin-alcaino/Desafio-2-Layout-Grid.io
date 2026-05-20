@@ -8,6 +8,6 @@ productos y un pie de página.
 
 ## 🔗 Links
 
-💻 Actualmente estoy trabajando en [Desafío 1 Flexbox ccs avanzado](https://kevin-alcaino.github.io/Desafio-2-Layout-Grid.io/)
+💻 Actualmente estoy trabajando en [Desafío 2 Grid ccs avanzado](https://kevin-alcaino.github.io/Desafio-2-Layout-Grid.io/)
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://kevin-alcaino.github.io/Kevin-alcaino.io/)
