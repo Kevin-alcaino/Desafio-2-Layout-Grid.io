@@ -30,8 +30,8 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 35px;
-    border: 2px solid blue;
-    background-color: rgb(33, 143, 216);
+    color: rgb(245, 245, 247);
+    background-color: rgb(24, 28, 36)
 }
 
 .menu-lat {
@@ -41,12 +41,19 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     padding: 30px 40px;
-    gap: 10px; 
+    gap: 10px;
+    background-color: rgb(24, 28, 36)
 }
 
+.menu-lat a {
+  color: rgb(245, 242, 235);
+  text-decoration: none;
+  transition: color 0.3s ease;
+} 
+
 .contenido {
-    background-image: url(https://findblueprints.s3.us-west-1.amazonaws.com/preview/1595855231409/BMW%203-Series%20E21%20323%20Alpina%20Coupe%201978.jpg);
-    background-repeat: no-repeat;
+    background-image: url('../img/plano\ de\ auto.png');
+    background-repeat: repeat;
     background-position: center;
     background-size: contain;
     grid-area: contenido;
@@ -69,7 +76,7 @@ body {
 .tarjeta {
     width: 200px;
     height: 300px;
-    background-color: #ffffff;
+   background-color: rgb(255, 255, 255);
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     padding: 15px;
