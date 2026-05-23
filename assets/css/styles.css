@@ -48,6 +48,7 @@ body {
     padding: 30px 40px;
     gap: 10px;
     background-color: rgba(44, 37, 32, 0.9);
+    white-space: nowrap;
 }
 
 .menu-lat a {
