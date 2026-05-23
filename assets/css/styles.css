@@ -25,7 +25,7 @@ body {
     grid-template-rows: 100px auto 50px;
 }
 .navegador{
-grid-area: navegador;
+    grid-area: navegador;
     display: flex;
     justify-content: center;
     align-items: center;     
@@ -71,6 +71,11 @@ grid-area: navegador;
 
 .footer {
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    color: rgb(234, 227, 210);
+    background-color: rgba(62, 53, 43, 0.9);
 }
 
 /* ==========================================
