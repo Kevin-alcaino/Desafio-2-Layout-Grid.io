@@ -24,16 +24,22 @@ body {
     grid-template-columns: 200px auto;
     grid-template-rows: 100px auto 50px;
 }
-
-.navegador {
-    grid-area: navegador;
+.navegador{
+grid-area: navegador;
     display: flex;
-    justify-content: space-around;
-    padding-top: 35px;
-    color: rgb(245, 245, 247);
+    justify-content: center;
+    align-items: center;     
+    color: rgb(234, 227, 210);
     background-color: rgba(62, 53, 43, 0.9);
 }
 
+.navegador h2 {
+    font-size: 1.8rem;     
+    font-weight: 800;        
+    text-transform: uppercase; 
+    letter-spacing: 2px;     
+    margin: 0;              
+}
 .menu-lat {
     grid-area: menu-lat;
     display: flex;
